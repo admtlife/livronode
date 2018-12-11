@@ -1,2 +1,2 @@
 # livronode
-Exemplo do Livro NodeJS - Lecheta
+Exemplo do Livro AngularJS - Casa do Código
