@@ -1,0 +1,22 @@
+<h3>
+  Contatos Cadastrados
+</h3>
+<div class="row justify-content-start">
+  <div class="col-9">
+    <table class="table">
+      <thead>
+        <th>#</th>
+        <th>Nome</th>
+        <th>Tipo</th>
+      </thead>
+      <tbody>
+        <tr [ngStyle]="{'cursor': 'pointer'}" *ngFor="let contato of listaContato, let idx = index" (click)="contatoClicado(idx)">
+          <th scope="row">{{ idx + 1}}</th>
+          <td>{{contato.nome}}</td>
+          <td>{{contato.tipo}}</td>
+        </tr> 
+      </tbody>
+    </table>
+  </div>
+
+</div>
